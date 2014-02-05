@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PipelineFramework.Backbone&lt;TEvents&gt;">
+    <Position X="0.75" Y="1.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAIAAQAAAAEAAAAAAAAAAAIIAAAAQAAABAA=</HashCode>
+      <FileName>Backbone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.Backbone&lt;TEvents, TContext&gt;">
+    <Position X="0.75" Y="5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAABQABAAAAAAAAEAAAgAADAAAAAAAQQA=</HashCode>
+      <FileName>Backbone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PropertyComparer" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PipelineFramework.PipelineContext">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PipelineContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PipelineEventAttribute">
+    <Position X="7.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>PipelineEventAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PipelineEvents">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PipelineEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PipelineModule&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PipelineModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="PipelineFramework.IPipelineModule">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPipelineModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PipelineFramework.TransactionScopeOption">
+    <Position X="7.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="PipelineFramework.PipelineContextDelegate&lt;T&gt;">
+    <Position X="7.5" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

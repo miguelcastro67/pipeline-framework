@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PipelineFramework.Configuration.PipelineElement">
+    <Position X="3.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\PipelineElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.Configuration.PipelineModuleElementCollection">
+    <Position X="3.25" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Configuration\PipelineModuleElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.Configuration.PipelineElementCollection">
+    <Position X="0.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Configuration\PipelineElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.Configuration.PipelineFrameworkConfigurationSection">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\PipelineFrameworkConfigurationSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.Configuration.PipelineModuleElement">
+    <Position X="6.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Configuration\PipelineModuleElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

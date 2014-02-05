@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E3865F4-DC83-4B29-99F3-8FF210A92E3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pipeline</RootNamespace>
+    <AssemblyName>PipelineFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Backbone_OfTandU.cs" />
+    <Compile Include="Backbone_OfT.cs" />
+    <Compile Include="Behaviors\IPipelineEventBehavior.cs" />
+    <Compile Include="Behaviors\IPluginBehavior.cs" />
+    <Compile Include="Behaviors\IPluginMemberBehavior.cs" />
+    <Compile Include="Behaviors\IProviderBehavior.cs" />
+    <Compile Include="Behaviors\IProviderMemberBehavior.cs" />
+    <Compile Include="Behaviors\IPipelineModuleBehavior.cs" />
+    <Compile Include="Configuration\PluginElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\PluginFeatureElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\PluginFeaturesElementCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\ProviderElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\ProviderFeatureElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\ProviderFeaturesElementCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Definition\Module.cs" />
+    <Compile Include="Definition\Modules.cs" />
+    <Compile Include="Definition\Pipeline.cs" />
+    <Compile Include="IBackbone_OfT.cs" />
+    <Compile Include="IBackbone_OfTandU.cs" />
+    <Compile Include="ObjectBuilder.cs" />
+    <Compile Include="ProviderFactory.cs" />
+    <Compile Include="Support Code\Delegates.cs" />
+    <Compile Include="EventArgs\PipelineCancelEventArgsBase.cs" />
+    <Compile Include="Exceptions\PipelineCastingException.cs" />
+    <Compile Include="PipelineContext.cs" />
+    <Compile Include="IPipelineModule.cs" />
+    <Compile Include="Configuration\PipelineElement.cs" />
+    <Compile Include="Configuration\PipelineElementCollection.cs" />
+    <Compile Include="EventArgs\PipelineEventArgsBase.cs" />
+    <Compile Include="Attributes\PipelineEventAttribute.cs" />
+    <Compile Include="Configuration\PipelineFrameworkConfigurationSection.cs" />
+    <Compile Include="EventArgs\PipelineEventFiredEventArgs.cs" />
+    <Compile Include="EventArgs\PipelineEventFiringEventArgs.cs" />
+    <Compile Include="PipelineEvents.cs" />
+    <Compile Include="PipelineModule.cs" />
+    <Compile Include="EventArgs\PipelineModuleInitializedEventArgs.cs" />
+    <Compile Include="EventArgs\PipelineModuleInitializingEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Support Code\Enums.cs" />
+    <Compile Include="Support Code\PropertyComparer.cs" />
+    <Compile Include="Tester.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagrams\PipelineFramework.cd" />
+    <None Include="Class Diagrams\PipelineFrameworkConfiguration.cd" />
+    <None Include="Class Diagrams\PipelineFrameworkEventArg.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

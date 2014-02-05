@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PipelineFramework.PipelineCancelEventArgsBase">
+    <Position X="2.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\PipelineCancelEventArgsBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PipelineModuleInitializingEventArgs">
+    <Position X="0.5" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>EventArgs\PipelineModuleInitializingEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PipelineEventArgsBase">
+    <Position X="5.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>EventArgs\PipelineEventArgsBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PipelineEventFiredEventArgs">
+    <Position X="5.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\PipelineEventFiredEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PipelineEventFiringEventArgs">
+    <Position X="3.75" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\PipelineEventFiringEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PipelineFramework.PipelineModuleInitializedEventArgs">
+    <Position X="8.75" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>EventArgs\PipelineModuleInitializedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
